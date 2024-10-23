@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import info from '../../data/user';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faMailBulk } from '@fortawesome/free-solid-svg-icons';
 
 const Contact: React.FC = () => {
@@ -31,9 +31,6 @@ const Contact: React.FC = () => {
       <div className='buttom-contact-container'>
         <h2>Other ways to reach me:</h2>
         <div className="social-links">
-          <a href={info.socials.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <FontAwesomeIcon icon={faGithub} size="2x" />
-          </a>
           <a href={info.socials.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>

@@ -98,7 +98,7 @@
 }
   
 .submit-button:hover {
-  background-color: #13a08f;
+  background-color: var(--link-color-hover);
 }
   
 .buttom-contact-container {

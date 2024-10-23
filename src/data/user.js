@@ -8,6 +8,9 @@ import blomlogin from '../images/blomlogin.png';
 import pacman from '../images/pacman-dsa.png';
 import zelda from '../images/gridzelda.png';
 import stockpredictor from '../images/StockPredictor.png';
+import nnePending from '../images/NNE Pending Actions.png';
+import nneQuickLinks from '../images/NNE QuickLinks.png';
+import apoteker from '../images/Apotekerforeningen.png';
 
 // Tech stack icons
 import javascriptIcon from '../images/icons/javascript.svg';
@@ -90,6 +93,27 @@ const info = {
         link: 'https://github.com/philipbenn/StockPredictor',
         images: [stockpredictor],
         skills: ['Python', 'Machine Learning', 'Pandas', 'Numpy']
+      },
+      {
+        title: 'Novo Nordisk Engineering Pending Actions',
+        description: 'Novo Nordisk Engineering Pending Actions was a project for Novo Nordisk, involving a SharePoint Framework solution.',
+        link: 'https://github.com/philipbenn',
+        images: [nnePending],
+        skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps']
+      },
+      {
+        title: 'Novo Nordisk Engineering Quick Links',
+        description: 'Novo Nordisk Engineering Quick Links was a project for Novo Nordisk, involving a SharePoint Framework solution.',
+        link: 'https://github.com/philipbenn',
+        images: [nneQuickLinks],
+        skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps']
+      },
+      {
+        title: 'Apotekerforeningen',
+        description: 'Apotekerforeningen was a project for the Danish Pharmacy Association, involving a SharePoint Framework solution.',
+        link: 'https://github.com/philipbenn',
+        images: [apoteker],
+        skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps']
       }
     ],
     title: 'Projects',
