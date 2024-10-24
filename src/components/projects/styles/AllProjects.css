@@ -1,11 +1,11 @@
-.all-projects {
+.projects {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
 }
 
-.all-projects h1 {
+.projects h1 {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--primary-color);

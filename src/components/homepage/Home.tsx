@@ -15,7 +15,7 @@ const Home: React.FC = () => {
       <div className="content-wrapper">
         <div className="text-content">
           <h1>{info.homepage.title}</h1>
-          <h4>{info.homepage.description}</h4>
+          <h4>Hi, I'm <span className='name'>Philip</span>! {info.homepage.description}</h4>
           <div className="social-links">
             <a href={info.socials.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <FontAwesomeIcon icon={faGithub} size="2x" />

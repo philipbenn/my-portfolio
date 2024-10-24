@@ -1,5 +1,6 @@
 .description {
     width: 100%;
+    font-family: var(--primary-font);
 }
 
 .text-content {
@@ -48,4 +49,9 @@ h4 {
 
 .social-links a:hover {
     color: var(--primary-color);
+}
+
+.name {
+    color: var(--link-color);
+    font-weight: 600;
 }

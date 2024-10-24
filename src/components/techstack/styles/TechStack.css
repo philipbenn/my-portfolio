@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     min-height: 25vh;
+    font-family: var(--primary-font);
   }
   
 .techstack h1 {
@@ -30,6 +31,10 @@
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
+}
+
+.techstack-description {
+  color: var(--secondary-color);
 }
   
 .tech-stack-wrapper {

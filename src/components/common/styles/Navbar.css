@@ -13,6 +13,7 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
+  font-family: var(--primary-font);
 }
 
 .navbar-nav-custom {  

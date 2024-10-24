@@ -1,7 +1,8 @@
 #about {
-    width: 100%;
+  width: 100%;
+  font-family: var(--primary-font);
 }
-  
+
 #about h1 {
   font-size: 1.5rem;
   font-weight: 700;
@@ -9,17 +10,15 @@
   margin-bottom: 10px;
 }
 
-#about h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--primary-color);
-  margin-bottom: 10px;
-}
-  
 #about p {
   font-size: 16px;
   color: var(--secondary-color);
   line-height: 1.6;
+  margin-left: 10px;
+}
+
+.about-description {
+  margin-left: 0px !important;
 }
 
 .content-wrapper-about {
@@ -30,41 +29,39 @@
   box-sizing: border-box;
 }
 
-.skill {
-  margin: 10px 0;
+.about-columns {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  gap: 20px;
 }
 
-.skill-name {
-  font-size: 18px;
-  font-weight: bold;
-  margin-right: 20px;
-  color: var(--secondary-color);
-  flex-shrink: 0;
+.about-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.skill-level {
-  width: 100%;
-  background-color: #f0f0f0;
-  border-radius: 5px;
-  overflow: hidden;
-  position: relative;
+.about-column a {
+  text-decoration: none;
 }
 
-.skill-level-bar {
-  height: 10px;
-  background-color: var(--link-color);
-  transition: width 0.3s ease;
-  border-radius: 5px;
+.about-item {
+  display: flex;
+  min-height: 50px;
 }
 
-.skill-level::after {
-  content: attr(data-level) '%';
-  position: absolute;
-  right: 10px;
-  top: -20px;
-  font-size: 12px;
-  color: #333;
-}  
+.about-item p {
+  margin-left: 10px;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.about-item i {
+  font-size: 20px;
+  color: var(--link-color);
+}
+
+span {
+  color: var(--primary-color);
+}

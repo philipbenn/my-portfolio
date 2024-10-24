@@ -7,7 +7,7 @@ const TechStack: React.FC = () => {
     <section id="techstack" className="techstack">
       <div className="content-wrapper-techstack">
         <h1>{info.techstack.title}</h1>
-        <p>{info.techstack.description}</p>
+        <p className='techstack-description'>{info.techstack.description}</p>
         <div className="tech-stack-container">
           <div className="tech-stack-wrapper">
             {info.techstack.skills.map((tech, index) => (

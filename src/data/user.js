@@ -32,10 +32,7 @@ import devopsIcon from '../images/icons/devops.png';
 
 const info = {
   homepage: {
-    description: `I'm a computer science student starting off my fifth semester, and I'm really into web development.
-          I focus on frontend and UI/UX, and I love creating smooth, user-friendly experiences with my designs.
-          Through my projects, I've developed an understanding of modern frontend technologies like React,
-          TypeScript, and CSS frameworks.`,
+    description: `I am currently studying at Copenhagen School of Design and Technology where I am pursuing a degree in Computer Science. I have a passion for coding and love to create innovative solutions.`,
     title: "Frontend Web Developer",
   },
   socials: {
@@ -133,34 +130,17 @@ const info = {
   },
   about: {
     title: 'About Me',
-    description: "Hi, I'm Philip! I am currently studying at Copenhagen School of Design and Technology where I am pursuing a degree in Computer Science. I have a passion for coding and love to create innovative solutions.",
-    skillsTitle: 'Skills',
-    skills: [
-      {
-        name: 'System Development',
-        level: 75
-      },
-      {
-        name: 'Agile Software Development',
-        level: 85
-      },
-      {
-        name: 'Web Development',
-        level: 95
-      },
-      {
-        name: 'App Development',
-        level: 90
-      },
-      {
-        name: 'Machine Learning',
-        level: 60
-      },
-      {
-        name: 'Algorithms',
-        level: 70
-      }
-    ]
+    description: `I'm a computer science student starting off my fifth semester, and I'm really into web development.
+          I focus on frontend and UI/UX, and I love creating smooth, user-friendly experiences with my designs.
+          Through my projects, I'm trying to develop an better understanding of modern frontend technologies like React,
+          TypeScript, and CSS frameworks.`,
+
+    location: 'Copenhagen',
+    email: 'philip@des-design.com',
+    school: 'Copenhagen School of Design and Technology',
+    degree: 'Computer Science',
+    age: '23',
+    interests: 'Video games & Fitness'
   },
   techstack: {
     title: 'Tech Stack',

@@ -9,7 +9,7 @@ const AllProjects: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<any>(null);
 
   const openModal = (project: any) => {
-    setSelectedProject({ ...project, currentImageIndex: 0 }); // Initialize currentImageIndex
+    setSelectedProject({ ...project, currentImageIndex: 0 });
     setIsModalOpen(true);
   };
 
@@ -35,8 +35,7 @@ const AllProjects: React.FC = () => {
   };
 
   return (
-    <section id="all-projects" className="all-projects">
-      <div className='projects' id='projects'></div>
+    <section id="projects" className="projects">
       {info.projects.data.map((project, index) => (
         <div className="all-projects-project" key={index}>
           <Project
