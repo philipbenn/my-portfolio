@@ -50,70 +50,82 @@ const info = {
         description: 'Bil Abonnement, another project from our 2nd semester, was centered around subscription-based car services.',
         link: 'https://github.com/philipbenn/BilAbonnement',
         images: [bildash, biltable],
-        skills: ['Java', 'Spring Boot', 'MySQL']
+        skills: ['Java', 'Spring Boot', 'MySQL'],
+        icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png"
       },
       {
         title: 'Kino XP',
         description: 'Kino XP was a cinema project undertaken during our 3rd semester, creating a platform for managing cinema operations.',
         link: 'https://github.com/Scrumbledore-s-Army/Kino-Project-Frontend-app',
         images: [bioseat],
-        skills: ['Java', 'JavaScript', 'MySQL']
+        skills: ['Java', 'JavaScript', 'MySQL'],
+        icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png"
       },
       {
         title: 'Scandinavian Training Academy',
         description: 'Scandinavian Training Academy project, involved implementing a comprehensive training platform for a real customer.',
         link: 'https://github.com/Scrumbledore-s-Army/STA-Project-Backend-Web',
         images: [stacontact, staindex],
-        skills: ['Java', 'Spring Boot', 'JavaScript', 'MySQL']
+        skills: ['Java', 'Spring Boot', 'JavaScript', 'MySQL'],
+        icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png"
       },
       {
         title: 'Blom Biler',
         description: 'Blom Biler focused on car dealership management systems, enhancing customer experience within the automotive industry.',
         link: 'https://github.com/philipbenn/BlomBiler',
         images: [blombilview, blomlogin],
-        skills: ['Java', 'Spring Boot', 'MySQL']
+        skills: ['Java', 'Spring Boot', 'MySQL'],
+        icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png"
       },
       {
         title: 'Pacman',
         description: 'Pacman was my exam project for a datastructures and algorithms course, involving implementation of pathfinding algorithms.',
         link: 'https://github.com/philipbenn/Pacman',
         images: [pacman],
-        skills: ['JavaScript', 'HTML', 'CSS']
+        skills: ['JavaScript', 'HTML', 'CSS'],
+        icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+        deployLink: "https://philipbenn.github.io/Pacman"
       },
       {
         title: 'Zelda',
         description: 'Zelda, a 2D grid-based game project from my datastructures and algorithms course.',
         link: 'https://github.com/philipbenn/GridZelda',
         images: [zelda],
-        skills: ['JavaScript', 'HTML', 'CSS']
+        skills: ['JavaScript', 'HTML', 'CSS'],
+        icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+        deployLink: "https://philipbenn.github.io/GridZelda/"
       },
       {
         title: 'Stock Predictor',
         description: 'Stock Predictor aimed to predict the S&P 500 index based on historical data.',
         link: 'https://github.com/philipbenn/StockPredictor',
         images: [stockpredictor],
-        skills: ['Python', 'Machine Learning', 'Pandas', 'Numpy']
+        skills: ['Python', 'Machine Learning', 'Pandas', 'Numpy'],
+        icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png"
       },
       {
         title: 'Novo Nordisk Engineering Pending Actions',
         description: 'Novo Nordisk Engineering Pending Actions was a project for Novo Nordisk, involving a SharePoint Framework solution.',
         link: 'https://github.com/philipbenn',
         images: [nnePending],
-        skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps']
+        skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps'],
+        icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png"
       },
       {
         title: 'Novo Nordisk Engineering Quick Links',
         description: 'Novo Nordisk Engineering Quick Links was a project for Novo Nordisk, involving a SharePoint Framework solution.',
         link: 'https://github.com/philipbenn',
         images: [nneQuickLinks],
-        skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps']
+        skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps'],
+        icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png"
       },
       {
         title: 'Apotekerforeningen',
         description: 'Apotekerforeningen was a project for the Danish Pharmacy Association, involving a SharePoint Framework solution.',
         link: 'https://github.com/philipbenn',
         images: [apoteker],
-        skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps']
+        skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps'],
+        icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png"
       }
     ],
     title: 'Projects',
