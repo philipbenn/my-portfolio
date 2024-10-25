@@ -9,8 +9,10 @@ const AllProjects: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<any>(null);
 
   const openModal = (project: any) => {
-    setSelectedProject({ ...project, currentImageIndex: 0 });
-    setIsModalOpen(true);
+    if (window.innerWidth >= 1024) {
+      setSelectedProject({ ...project, currentImageIndex: 0 });
+      setIsModalOpen(true);
+    }
   };
 
   const closeModal = () => {

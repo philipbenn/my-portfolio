@@ -11,6 +11,7 @@ import stockpredictor from '../images/StockPredictor.png';
 import nnePending from '../images/NNE Pending Actions.png';
 import nneQuickLinks from '../images/NNE QuickLinks.png';
 import apoteker from '../images/Apotekerforeningen.png';
+import animatedphil from '../images/animatedphil.png';
 
 // Tech stack icons
 import javascriptIcon from '../images/icons/javascript.svg';
@@ -140,7 +141,8 @@ const info = {
     school: 'Copenhagen School of Design and Technology',
     degree: 'Computer Science',
     age: '23',
-    interests: 'Video games & Fitness'
+    interests: 'Video games & Fitness',
+    animatedphilsrc: animatedphil
   },
   techstack: {
     title: 'Tech Stack',
