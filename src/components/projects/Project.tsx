@@ -17,20 +17,19 @@ interface ProjectProps {
 const Project: React.FC<ProjectProps> = ({ title, description, icon, link, onOpenModal }) => {
   return (
     <div className="project">
-      <div className="project-container" onClick={onOpenModal}>
-        <div className="project-logo">
-          <img src={icon} alt={`${title} logo`} />
-        </div>
-        <div className="project-title">
-          {title}
-          <span className="project-hover-text">Click to see the project!</span>
-        </div>
-        <div className="project-description">{description}</div>
-        <div className="project-link">
-          <a href={link} target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faLink} className="project-link-icon" />
-            <span className="project-link-text">View Project</span>
-          </a>
+      <div className="project-logo">
+        <img src={icon} alt={`${title} logo`} />
+      </div>
+      <div className="project-title">{title}</div>
+      <div className="project-description">{description}</div>
+      <div className="project-links">
+        <a href={link} target="_blank" rel="noopener noreferrer" className="project-link">
+          <FontAwesomeIcon icon={faLink} className="project-link-icon" />
+          <span className="project-link-text">View Project</span>
+        </a>
+        <div style={{cursor: 'pointer'}} className="project-demo-link" onClick={onOpenModal}>
+          <FontAwesomeIcon icon={faLink} className="project-link-icon" />
+          <span className="project-link-text">View Demo</span>
         </div>
       </div>
     </div>
