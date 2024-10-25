@@ -14,7 +14,18 @@ interface ProjectProps {
   onOpenModal: () => void;
 }
 
-const Project: React.FC<ProjectProps> = ({ title, description, icon, link, onOpenModal }) => {
+const Project: React.FC<ProjectProps> = ({
+  title,
+  description,
+  icon,
+  link,
+  images,
+  deployLink,
+  onOpenModal
+}) => {
+
+  const demoLinkText = deployLink ? 'View Demo' : 'View Images';
+
   return (
     <div className="project">
       <div className="project-logo">
@@ -27,9 +38,9 @@ const Project: React.FC<ProjectProps> = ({ title, description, icon, link, onOpe
           <FontAwesomeIcon icon={faLink} className="project-link-icon" />
           <span className="project-link-text">View Project</span>
         </a>
-        <div style={{cursor: 'pointer'}} className="project-demo-link" onClick={onOpenModal}>
+        <div style={{ cursor: 'pointer' }} className="project-demo-link" onClick={onOpenModal}>
           <FontAwesomeIcon icon={faLink} className="project-link-icon" />
-          <span className="project-link-text">View Demo</span>
+          <span className="project-link-text">{demoLinkText}</span>
         </div>
       </div>
     </div>
