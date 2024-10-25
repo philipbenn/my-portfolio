@@ -21,7 +21,10 @@ const Project: React.FC<ProjectProps> = ({ title, description, icon, link, onOpe
         <div className="project-logo">
           <img src={icon} alt={`${title} logo`} />
         </div>
-        <div className="project-title">{title}</div>
+        <div className="project-title">
+          {title}
+          <span className="project-hover-text">Click to see the project!</span>
+        </div>
         <div className="project-description">{description}</div>
         <div className="project-link">
           <a href={link} target="_blank" rel="noopener noreferrer">
