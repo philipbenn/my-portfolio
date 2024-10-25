@@ -1,30 +1,30 @@
 .techstack {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 25vh;
-    font-family: var(--primary-font);
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 25vh;
+  font-family: var(--primary-font);
+}
+
 .techstack h1 {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--primary-color);
   margin-bottom: 10px;
 }
-  
+
 .techstack p {
   font-size: 1.1rem;
   margin-bottom: 1rem;
 }
-  
+
 .tech-stack-container {
   overflow: hidden;
   width: 100%;
   max-width: 1200px;
 }
-  
+
 .content-wrapper-techstack {
   display: block;
   width: 100%;
@@ -36,29 +36,29 @@
 .techstack-description {
   color: var(--secondary-color);
 }
-  
+
 .tech-stack-wrapper {
   display: flex;
   width: max-content;
-  animation: scroll 20s linear infinite;
+  animation: scroll 30s linear infinite;
   box-sizing: border-box;
   will-change: transform;
 }
-  
+
 .tech-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 1rem 2rem;
 }
-  
+
 .tech-icon {
   width: 60px;
   height: 60px;
   margin-bottom: 0.5rem;
   object-fit: contain;
 }
-  
+
 @keyframes scroll {
   0% {
     transform: translateX(0%);
@@ -67,9 +67,9 @@
     transform: translateX(-50%);
   }
 }
-  
+
 @media (max-width: 768px) {
   .techstack {
     display: none;
   }
-}  
+}

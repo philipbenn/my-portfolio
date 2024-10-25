@@ -1,8 +1,4 @@
 # TODO
-Tilføj projekter fra praktik
-Forbedre nav
-Tilføj Animationer på sektioner
-Ændre projekter til at være modal pop ups
 
 # Getting Started with Create React App
 

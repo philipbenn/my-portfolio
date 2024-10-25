@@ -24,7 +24,7 @@ const CV: React.FC = () => {
             <div className="cv-details">
               <div className="cv-job-title">Fellowmind</div>
               <div className="cv-subtitle">Frontend Developer Intern</div>
-              <div className="cv-duration">26/08-2024 - Present</div>
+              <div className="cv-duration">26/08-2024 - 01/11-2024</div>
             </div>
           </div>
 

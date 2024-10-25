@@ -48,7 +48,7 @@
 
 .about-item {
   display: flex;
-  min-height: 50px;
+  min-height: 80px;
 }
 
 .about-item p {
