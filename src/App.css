@@ -147,4 +147,9 @@
   .subtitle {
     font-size: 1rem;
   }
+
+  .content-wrapper {
+    display: grid;
+    width: 100%;
+  }
 }
