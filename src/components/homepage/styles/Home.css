@@ -8,6 +8,24 @@
     text-align: left;
   }
   
+  .text-left, .text-right {
+    flex: 1;
+    max-width: 60%;
+    margin: 0 5%;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slideUp 1s forwards ease-out;
+  }
+  
+  .text-left {
+    animation-delay: 0.5s; 
+  }
+  
+  .text-right {
+    animation-delay: 1s;
+  }
+  
+
   h1 {
     font-size: 2rem;
     font-weight: 700;
@@ -55,7 +73,22 @@
     color: var(--link-color);
     font-weight: 600;
   }
-  
+
+/* Keyframe animations */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Media queries */  
   @media (max-width: 1024px) {
     .text-content, .image-content {
       width: 100%;

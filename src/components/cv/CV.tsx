@@ -8,8 +8,8 @@ import jagger from '../../images/jagger.jpg';
 const CV: React.FC = () => {
   return (
     <section id='cv' className='cv'>
-      <div className='content-wrapper-cv'>
-        <div className="cv-header">
+      <div className='content-wrapper-cv' data-aos="fade-left">
+        <div data-aos="fade-up" className="cv-header">
           <FontAwesomeIcon icon={faBriefcase} className="cv-icon" />
           <h2 className="cv-title">Work Experience</h2>
         </div>

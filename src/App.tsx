@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from './components/common/Navbar';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
@@ -10,8 +10,13 @@ import About from './components/about/About';
 import TechStack from './components/techstack/TechStack';
 import Contact from './components/contact/Contact';
 import AllProjects from './components/projects/AllProjects';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const App: React.FC = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   initializeIcons();
   const items = ['Home', 'About', 'Projects', 'Contact'];
   return (

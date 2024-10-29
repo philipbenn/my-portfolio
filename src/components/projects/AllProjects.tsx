@@ -37,9 +37,9 @@ const AllProjects: React.FC = () => {
   };
 
   return (
-    <section id="projects" className="projects">
+    <section id="projects" className="projects" data-aos="fade-up">
       {info.projects.data.map((project, index) => (
-        <div className="all-projects-project" key={index}>
+        <div className="all-projects-project" key={index} data-aos="fade-up">
           <Project
             icon={project.icon}
             title={project.title}

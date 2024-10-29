@@ -6,10 +6,10 @@ import { Icon } from '@fluentui/react';
 const About: React.FC = () => {
   return (
     <section id="about" className='about'>
-      <div className="content-wrapper-about">
-        <h1>{info.about.title}</h1>
+      <div className="content-wrapper-about" data-aos="fade-up">
+        <h1 data-aos="fade-up">{info.about.title}</h1>
         <p className='about-description'>{info.about.description}</p>
-        <div className="about-columns">
+        <div className="about-columns" data-aos="fade-right">
           <div className="about-column">
             <div className="about-item">
               <Icon iconName='Education' />
