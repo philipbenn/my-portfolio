@@ -8,8 +8,8 @@ import { faMailBulk } from '@fortawesome/free-solid-svg-icons';
 const Contact: React.FC = () => {
   return (
     <section id="contact" className='contact' data-aos="fade-up">
-      <h1>Contact</h1>
-      <p id='contact-text'>Feel free to reach out to me with any questions or opportunities!</p>
+      <h1>{info.contact.title}</h1>
+      <p id='contact-text'>{info.contact.description}</p>
       <div className='contact-container'>
         <form id='contactForm' action='https://formspree.io/f/mrgwvqag' method='POST'>
           <div className='form-header'>

@@ -12,6 +12,8 @@ import nnePending from '../images/NNE Pending Actions.png';
 import nneQuickLinks from '../images/NNE QuickLinks.png';
 import apoteker from '../images/Apotekerforeningen.png';
 import animatedphil from '../images/animatedphil.png';
+import fellowmind from '../images/fellowmind.jpg';
+import jagger from '../images/jagger.jpg';
 
 // Tech stack icons
 import javascriptIcon from '../images/icons/javascript.svg';
@@ -213,7 +215,28 @@ const info = {
         imgSrc: devopsIcon
       }
     ],
-  }
+  },
+  contact: {
+    title: 'Contact',
+    description: 'Feel free to reach out to me with any questions or opportunities!',
+  },
+  cv: {
+    title: 'Work Experience',
+    work: [
+      {
+        title: 'Fellowmind',
+        subtitle: 'Frontend Developer Intern',
+        duration: '26/08-2024 - 01/11-2024',
+        image: fellowmind
+      },
+      {
+        title: 'Jagger',
+        subtitle: 'Buzzer',
+        duration: '01/09-2022 - Present',
+        image: jagger
+      }
+    ],
+  },
 };
 
 export default info;
