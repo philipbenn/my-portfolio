@@ -15,7 +15,7 @@ import 'aos/dist/aos.css';
 
 const App: React.FC = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 1200 });
   }, []);
   initializeIcons();
   const items = ['Home', 'About', 'Projects', 'Contact'];

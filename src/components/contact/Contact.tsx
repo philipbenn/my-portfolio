@@ -7,7 +7,7 @@ import { faMailBulk } from '@fortawesome/free-solid-svg-icons';
 
 const Contact: React.FC = () => {
   return (
-    <section id="contact" className='contact'>
+    <section id="contact" className='contact' data-aos="fade-up">
       <h1>Contact</h1>
       <p id='contact-text'>Feel free to reach out to me with any questions or opportunities!</p>
       <div className='contact-container'>

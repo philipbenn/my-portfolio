@@ -39,17 +39,19 @@ const AllProjects: React.FC = () => {
   return (
     <section id="projects" className="projects" data-aos="fade-up">
       {info.projects.data.map((project, index) => (
-        <div className="all-projects-project" key={index} data-aos="fade-up">
-          <Project
-            icon={project.icon}
-            title={project.title}
-            description={project.description}
-            linkText='View Project'
-            link={project.link}
-            images={project.images}
-            deployLink={project.deployLink}
-            onOpenModal={() => openModal(project)}
-          />
+        <div className="all-projects-project" key={index}>
+          <div data-aos="fade-up">
+            <Project
+              icon={project.icon}
+              title={project.title}
+              description={project.description}
+              linkText="View Project"
+              link={project.link}
+              images={project.images}
+              deployLink={project.deployLink}
+              onOpenModal={() => openModal(project)}
+            />
+          </div>
         </div>
       ))}
 

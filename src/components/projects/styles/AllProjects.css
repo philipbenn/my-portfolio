@@ -13,7 +13,7 @@
 }
 
 .all-projects-project {
-    width: calc(33.333% - 20px); 
+    width: calc(33.333% - 20px);
     box-sizing: border-box;
     overflow: hidden;
     margin-bottom: 20px;
@@ -22,6 +22,10 @@
 
 .all-projects-project:hover {
     transform: translateY(-5px);
+}
+
+.all-projects-project > div[data-aos] {
+    transform: translateY(0);
 }
 
 .project-modal-container {
