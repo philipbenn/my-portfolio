@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles/Home.css';
-import imagePath from '../../images/phil3.jpg';
 import info from '../../data/user.js';
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -32,7 +31,7 @@ const Home: React.FC = () => {
         </div>
         <div className="image-content">
           <div className="text-right">
-            <img src={imagePath} alt='Phil' className='profile-pic' />
+            <img src={info.homepage.imageSrc} alt='Phil' className='profile-pic' />
           </div>
         </div>
       </div>

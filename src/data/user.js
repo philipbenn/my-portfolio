@@ -1,42 +1,8 @@
-import bildash from '../images/bildash.png';
-import biltable from '../images/biltable.png';
-import bioseat from '../images/bioseat.png';
-import stacontact from '../images/stacontact.png';
-import staindex from '../images/staindex.png';
-import blombilview from '../images/blombilview.png';
-import blomlogin from '../images/blomlogin.png';
-import pacman from '../images/pacman-dsa.png';
-import zelda from '../images/gridzelda.png';
-import stockpredictor from '../images/StockPredictor.png';
-import nnePending from '../images/NNE Pending Actions.png';
-import nneQuickLinks from '../images/NNE QuickLinks.png';
-import apoteker from '../images/Apotekerforeningen.png';
-import animatedphil from '../images/animatedphil.png';
-import fellowmind from '../images/fellowmind.jpg';
-import jagger from '../images/jagger.jpg';
-
-// Tech stack icons
-import javascriptIcon from '../images/icons/javascript.svg';
-import javaIcon from '../images/icons/java.svg';
-import azureIcon from '../images/icons/azure.svg';
-import bootstrapIcon from '../images/icons/bootstrap.svg';
-import firebaseIcon from '../images/icons/firebase.svg';
-import githubIcon from '../images/icons/github.svg';
-import mysqlIcon from '../images/icons/mysql.svg';
-import reactIcon from '../images/icons/react.svg';
-import springIcon from '../images/icons/spring.svg';
-import typescriptIcon from '../images/icons/typescript.svg';
-import dockerIcon from '../images/icons/docker.svg';
-import htmlIcon from '../images/icons/html.svg';
-import cssIcon from '../images/icons/css.svg';
-import tailwindIcon from '../images/icons/tailwind.svg';
-import spfxIcon from '../images/icons/spfx.png';
-import devopsIcon from '../images/icons/devops.png';
-
 const info = {
   homepage: {
     description: `I am currently studying at Copenhagen School of Design and Technology where I am pursuing a degree in Computer Science. I have a passion for coding and love to create innovative solutions.`,
     title: "Frontend Web Developer",
+    imageSrc: "/images/phil3.jpg"
   },
   socials: {
     github: "https://github.com/philipbenn",
@@ -49,7 +15,7 @@ const info = {
         title: 'Bil Abonnement',
         description: 'Bil Abonnement, another project from our 2nd semester, was centered around subscription-based car services.',
         link: 'https://github.com/philipbenn/BilAbonnement',
-        images: [bildash, biltable],
+        images: ['/images/bildash.png', '/images/biltable.png'],
         skills: ['Java', 'Spring Boot', 'MySQL'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png"
       },
@@ -57,7 +23,7 @@ const info = {
         title: 'Kino XP',
         description: 'Kino XP was a cinema project undertaken during our 3rd semester, creating a platform for managing cinema operations.',
         link: 'https://github.com/Scrumbledore-s-Army/Kino-Project-Frontend-app',
-        images: [bioseat],
+        images: ['/images/bioseat.png'],
         skills: ['Java', 'JavaScript', 'MySQL'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png"
       },
@@ -65,7 +31,7 @@ const info = {
         title: 'Scandinavian Training Academy',
         description: 'Scandinavian Training Academy project, involved implementing a comprehensive training platform for a real customer.',
         link: 'https://github.com/Scrumbledore-s-Army/STA-Project-Backend-Web',
-        images: [stacontact, staindex],
+        images: ['/images/stacontact.png', '/images/staindex.png'],
         skills: ['Java', 'Spring Boot', 'JavaScript', 'MySQL'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png"
       },
@@ -73,7 +39,7 @@ const info = {
         title: 'Blom Biler',
         description: 'Blom Biler focused on car dealership management systems, enhancing customer experience within the automotive industry.',
         link: 'https://github.com/philipbenn/BlomBiler',
-        images: [blombilview, blomlogin],
+        images: ['/images/blombilview.png', '/images/blomlogin.png'],
         skills: ['Java', 'Spring Boot', 'MySQL'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png"
       },
@@ -81,7 +47,7 @@ const info = {
         title: 'Pacman',
         description: 'Pacman was my exam project for a datastructures and algorithms course, involving implementation of pathfinding algorithms.',
         link: 'https://github.com/philipbenn/Pacman',
-        images: [pacman],
+        images: ['/images/pacman-dsa.png'],
         skills: ['JavaScript', 'HTML', 'CSS'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
         deployLink: "https://philipbenn.github.io/Pacman"
@@ -90,7 +56,7 @@ const info = {
         title: 'Zelda',
         description: 'Zelda, a 2D grid-based game project from my datastructures and algorithms course.',
         link: 'https://github.com/philipbenn/GridZelda',
-        images: [zelda],
+        images: ['/images/gridzelda.png'],
         skills: ['JavaScript', 'HTML', 'CSS'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
         deployLink: "https://philipbenn.github.io/GridZelda/"
@@ -99,7 +65,7 @@ const info = {
         title: 'Stock Predictor',
         description: 'Stock Predictor aimed to predict the S&P 500 index based on historical data.',
         link: 'https://github.com/philipbenn/StockPredictor',
-        images: [stockpredictor],
+        images: ['/images/StockPredictor.png'],
         skills: ['Python', 'Machine Learning', 'Pandas', 'Numpy'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png"
       },
@@ -107,7 +73,7 @@ const info = {
         title: 'Novo Nordisk Engineering Pending Actions',
         description: 'Novo Nordisk Engineering Pending Actions was a project for Novo Nordisk, involving a SharePoint Framework solution.',
         link: 'https://github.com/philipbenn',
-        images: [nnePending],
+        images: ['/images/NNE Pending Actions.png'],
         skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png"
       },
@@ -115,7 +81,7 @@ const info = {
         title: 'Novo Nordisk Engineering Quick Links',
         description: 'Novo Nordisk Engineering Quick Links was a project for Novo Nordisk, involving a SharePoint Framework solution.',
         link: 'https://github.com/philipbenn',
-        images: [nneQuickLinks],
+        images: ['/images/NNE QuickLinks.png'],
         skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png"
       },
@@ -123,7 +89,7 @@ const info = {
         title: 'Apotekerforeningen',
         description: 'Apotekerforeningen was a project for the Danish Pharmacy Association, involving a SharePoint Framework solution.',
         link: 'https://github.com/philipbenn',
-        images: [apoteker],
+        images: ['/images/Apotekerforeningen.png'],
         skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png"
       }
@@ -137,14 +103,13 @@ const info = {
           I focus on frontend and UI/UX, and I love creating smooth, user-friendly experiences with my designs.
           Through my projects, I'm trying to develop an better understanding of modern frontend technologies like React,
           TypeScript, and CSS frameworks.`,
-
     location: 'Copenhagen',
     email: 'philip@des-design.com',
     school: 'Copenhagen School of Design and Technology',
     degree: 'Computer Science',
     age: '23',
     interests: 'Video games & Fitness',
-    animatedphilsrc: animatedphil
+    animatedphilsrc: '/images/animatedphil.png'
   },
   techstack: {
     title: 'Tech Stack',
@@ -152,67 +117,67 @@ const info = {
     skills: [
       {
         name: 'JavaScript',
-        imgSrc: javascriptIcon
+        imgSrc: '/images/icons/javascript.svg'
       },
       {
         name: 'Java',
-        imgSrc: javaIcon
+        imgSrc: '/images/icons/java.svg'
       },
       {
         name: 'Azure',
-        imgSrc: azureIcon
+        imgSrc: '/images/icons/azure.svg'
       },
       {
         name: 'Bootstrap',
-        imgSrc: bootstrapIcon
+        imgSrc: '/images/icons/bootstrap.svg'
       },
       {
         name: 'Firebase',
-        imgSrc: firebaseIcon
+        imgSrc: '/images/icons/firebase.svg'
       },
       {
         name: 'Github',
-        imgSrc: githubIcon
+        imgSrc: '/images/icons/github.svg'
       },
       {
         name: 'MySQL',
-        imgSrc: mysqlIcon
+        imgSrc: '/images/icons/mysql.svg'
       },
       {
         name: 'React',
-        imgSrc: reactIcon
+        imgSrc: '/images/icons/react.svg'
       },
       {
         name: 'Spring',
-        imgSrc: springIcon
+        imgSrc: '/images/icons/spring.svg'
       },
       {
         name: 'TypeScript',
-        imgSrc: typescriptIcon
+        imgSrc: '/images/icons/typescript.svg'
       },
       {
         name: 'Docker',
-        imgSrc: dockerIcon
+        imgSrc: '/images/icons/docker.svg'
       },
       {
         name: 'HTML',
-        imgSrc: htmlIcon
+        imgSrc: '/images/icons/html.svg'
       },
       {
         name: 'CSS',
-        imgSrc: cssIcon
+        imgSrc: '/images/icons/css.svg'
       },
       {
         name: 'Tailwind',
-        imgSrc: tailwindIcon
+        imgSrc: '/images/icons/tailwind.svg'
       },
       {
         name: 'SPFx',
-        imgSrc: spfxIcon
+        imgSrc: '/images/icons/spfx.png'
       },
       {
         name: 'DevOps',
-        imgSrc: devopsIcon
+        imgSrc: '/images/icons/devops.png'
       }
     ],
   },
@@ -227,13 +192,13 @@ const info = {
         title: 'Fellowmind',
         subtitle: 'Frontend Developer Intern',
         duration: '26/08-2024 - 01/11-2024',
-        image: fellowmind
+        image: '/images/fellowmind.jpg'
       },
       {
         title: 'Jagger',
         subtitle: 'Buzzer',
         duration: '01/09-2022 - Present',
-        image: jagger
+        image: '/images/jagger.jpg'
       }
     ],
   },
