@@ -15,8 +15,13 @@ import 'aos/dist/aos.css';
 
 const App: React.FC = () => {
   useEffect(() => {
-    AOS.init({ duration: 1200 });
+    AOS.init({
+      duration: 800,
+      disable: () => window.innerWidth < 768,
+      offset: 50,
+    });
   }, []);
+
   initializeIcons();
   const items = ['Home', 'About', 'Projects', 'Contact'];
   return (
