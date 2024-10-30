@@ -130,13 +130,18 @@
     font-size: 1.5rem;
   }
 
+  .contact {
+    margin-top: 50px;
+  }
+
   .contact p {
-    font-size: 0.875rem;
+    display: none;
   }
 
   .submit-button {
     width: 100%;
     padding: 0.5rem;
+    justify-content: center;
   }
 
   .buttom-contact-container h2 {

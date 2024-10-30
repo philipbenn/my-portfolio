@@ -79,7 +79,13 @@
 }
 
 @media (max-width: 600px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
     .all-projects-project {
         width: 100%;
+        margin-bottom: 10px;
     }
 }

@@ -96,6 +96,14 @@
     font-size: 1rem;
   }
 
+  .cv-image {
+    margin-bottom: 15px;
+  }
+
+  .content-wrapper-cv {
+    padding: 0px 20px 0px 20px;
+  }
+
   .cv-job-title {
     font-size: 14px;
   }
