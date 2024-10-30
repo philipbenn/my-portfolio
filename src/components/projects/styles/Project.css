@@ -2,12 +2,12 @@
     mix-blend-mode: normal;
     border-radius: 20px;
     opacity: 0.8;
-    height: 100%;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  }
+}
   
   .project a {
     text-decoration: none;
@@ -51,7 +51,12 @@
   
   .project-description {
     color: var(--secondary-color);
-  }
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
   
   .project-links {
     margin-top: auto;

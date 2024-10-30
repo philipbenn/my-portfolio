@@ -7,7 +7,7 @@ interface ProjectProps {
   title: string;
   description: string;
   icon: string;
-  link: string;
+  link?: string;
   linkText: string;
   images?: string[];
   deployLink?: string;
@@ -19,7 +19,6 @@ const Project: React.FC<ProjectProps> = ({
   description,
   icon,
   link,
-  images,
   deployLink,
   onOpenModal
 }) => {
@@ -34,10 +33,12 @@ const Project: React.FC<ProjectProps> = ({
       <div className="project-title">{title}</div>
       <div className="project-description">{description}</div>
       <div className="project-links">
-        <a href={link} target="_blank" rel="noopener noreferrer" className="project-link">
-          <FontAwesomeIcon icon={faLink} className="project-link-icon" />
-          <span className="project-link-text">View Project</span>
-        </a>
+        {link && (
+          <a href={link} target="_blank" rel="noopener noreferrer" className="project-link">
+            <FontAwesomeIcon icon={faLink} className="project-link-icon" />
+            <span className="project-link-text">View Project</span>
+          </a>
+        )}
         <div style={{ cursor: 'pointer' }} className="project-demo-link" onClick={onOpenModal}>
           <FontAwesomeIcon icon={faLink} className="project-link-icon" />
           <span className="project-link-text">{demoLinkText}</span>

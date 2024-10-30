@@ -23,7 +23,7 @@ const info = {
         title: 'Kino XP',
         description: 'Kino XP was a cinema project undertaken during our 3rd semester, creating a platform for managing cinema operations.',
         link: 'https://github.com/Scrumbledore-s-Army/Kino-Project-Frontend-app',
-        images: ['images/bioseat.png'],
+        images: ['images/bioseat.png', 'images/biomovies.png'],
         skills: ['Java', 'JavaScript', 'MySQL'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png"
       },
@@ -31,7 +31,7 @@ const info = {
         title: 'Scandinavian Training Academy',
         description: 'Scandinavian Training Academy project, involved implementing a comprehensive training platform for a real customer.',
         link: 'https://github.com/Scrumbledore-s-Army/STA-Project-Backend-Web',
-        images: ['images/stacontact.png', 'images/staindex.png'],
+        images: ['images/stacontact.png', 'images/staindex.png', 'images/statype.png'],
         skills: ['Java', 'Spring Boot', 'JavaScript', 'MySQL'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png"
       },
@@ -70,29 +70,35 @@ const info = {
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png"
       },
       {
+        title: 'Fellowmind Advent Calender',
+        description: 'The calender was a webpart i made for Fellowmind. They wanted a advent calender for their employees.',
+        images: ['images/adventexpand.png', 'images/adventcollapsed.png'],
+        skills: ['TypeScript', 'React', 'SPFx'],
+        icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png",
+        link: "https://github.com/philipbenn/Adventskalender"
+      },
+      {
         title: 'Novo Nordisk Engineering Pending Actions',
-        description: 'Novo Nordisk Engineering Pending Actions was a project for Novo Nordisk, involving a SharePoint Framework solution.',
-        link: 'https://github.com/philipbenn',
+        description: 'Novo Nordisk Engineering Pending Actions was a webpart done for Novo Nordisk. The source code is not available due to company policy.',
         images: ['images/NNE Pending Actions.png'],
         skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png"
       },
       {
         title: 'Novo Nordisk Engineering Quick Links',
-        description: 'Novo Nordisk Engineering Quick Links was a project for Novo Nordisk, involving a SharePoint Framework solution.',
-        link: 'https://github.com/philipbenn',
+        description: 'Novo Nordisk Engineering Quick Links was a project for Novo Nordisk. The source code is not available due to company policy.',
         images: ['images/NNE QuickLinks.png'],
         skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png"
       },
       {
         title: 'Apotekerforeningen',
-        description: 'Apotekerforeningen was a project for the Danish Pharmacy Association, involving a SharePoint Framework solution.',
-        link: 'https://github.com/philipbenn',
+        description: 'Apotekerforeningen was a project for the Danish Pharmacy Association. The source code is not available due to company policy.',
         images: ['images/Apotekerforeningen.png'],
         skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png"
       }
+   
     ],
     title: 'Projects',
     description: 'Here are some of my projects:',
