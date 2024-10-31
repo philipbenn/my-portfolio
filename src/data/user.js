@@ -114,7 +114,7 @@ const info = {
     school: 'Copenhagen School of Design and Technology',
     degree: 'Computer Science',
     age: '23',
-    interests: 'Video games & Fitness',
+    interests: 'Fitness',
     animatedphilsrc: 'images/animatedphil.png'
   },
   techstack: {
