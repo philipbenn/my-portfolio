@@ -70,6 +70,7 @@ span {
 @media (max-width: 768px) {
   .about-columns {
     flex-direction: column;
+    gap: 0px;
   }
 
   #about h1 {
@@ -84,7 +85,7 @@ span {
 
 @media (max-width: 576px) {
   .about-column {
-    gap: 5px;
+    gap: 0px;
   }
 
   #about h1 {
