@@ -59,6 +59,8 @@ h4 {
 
 .social-links {
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .social-links a {
@@ -146,9 +148,8 @@ h4 {
     flex-direction: column;
   }
 
-  /* Stack image at the top and text below */
   .image-content {
-    order: -1; /* Move image content to the top */
+    order: -1;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -156,8 +157,12 @@ h4 {
   }
 
   .profile-pic {
-    width: 150px;
-    height: 240px;
+    width: 180px;
+    height: 270px;
+  }
+
+  .text-right {
+    margin-top: 40px;
   }
 
   .text-content {
