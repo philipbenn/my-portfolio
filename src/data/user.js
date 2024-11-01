@@ -107,7 +107,7 @@ const info = {
     title: 'About Me',
     description: `I'm a computer science student starting off my fifth semester, and I'm really into web development.
           I focus on frontend and UI/UX, and I love creating smooth, user-friendly experiences with my designs.
-          Through my projects, I'm trying to develop an better understanding of modern frontend technologies like React,
+          Through my projects, I'm trying to develop a better understanding of modern frontend technologies like React,
           TypeScript, and CSS frameworks.`,
     location: 'Copenhagen',
     email: 'philip@des-design.com',
