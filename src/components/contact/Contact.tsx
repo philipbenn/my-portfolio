@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
 
       <div className="buttom-contact-container">
         <h2>Other ways to reach me:</h2>
-        <div className="social-links">
+        <div className="social-links-contact">
           <a href={info.socials.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
