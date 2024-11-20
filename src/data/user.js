@@ -201,6 +201,12 @@ const info = {
         image: 'images/fellowmind.jpg'
       },
       {
+        title: 'Fellowmind',
+        subtitle: 'Student Assistent',
+        duration: '28/11-2024 - Present',
+        image: 'images/fellowmind.jpg'
+      },
+      {
         title: 'Jagger',
         subtitle: 'Buzzer',
         duration: '01/09-2022 - Present',

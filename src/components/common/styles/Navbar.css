@@ -10,28 +10,24 @@
 }
 
 .navbar-icon {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  position: fixed;
+  top: 20px; 
+  left: calc(50% - 600px + 25px);
   background-color: white;
   border-radius: 50%;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   padding: 5px;
-  margin: 10px;
   cursor: pointer;
   text-decoration: none;
   color: #333;
   transition: transform 0.3s ease, background-color 0.3s ease;
-  position: absolute;
-  top: 20px;
-  left: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50px;
   height: 50px;
   overflow: hidden;
-}
-
-.navbar-icon.scrolled {
-  transform: scale(1.2);
+  z-index: 1000;
 }
 
 .navbar-icon img {
@@ -44,6 +40,10 @@
 .navbar-icon:hover {
   background-color: var(--link-color);
   color: white;
+}
+
+.navbar-icon.scrolled {
+  transform: scale(1.2);
 }
 
 .navbar-custom {
@@ -89,7 +89,7 @@
   color: var(--link-color);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .navbar-icon {
     display: none;
   }
