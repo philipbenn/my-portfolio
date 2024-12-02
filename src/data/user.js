@@ -184,6 +184,14 @@ const info = {
       {
         name: 'DevOps',
         imgSrc: 'images/icons/devops.png'
+      },
+      {
+        name: 'C#',
+        imgSrc: 'images/icons/csharp.png'
+      },
+      {
+        name: '.NET',
+        imgSrc: 'images/icons/dotnet.png'
       }
     ],
   },
