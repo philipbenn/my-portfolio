@@ -2,7 +2,7 @@ const info = {
   homepage: {
     description: `I am currently studying at Copenhagen School of Design and Technology where I am pursuing a degree in Computer Science. I have a passion for coding and love to create innovative solutions.`,
     title: "Frontend Web Developer",
-    imageSrc: "images/phil3.jpg"
+    imageSrc: "images/fellowphi.jpg"
   },
   socials: {
     github: "https://github.com/philipbenn",
