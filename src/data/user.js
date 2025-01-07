@@ -97,6 +97,13 @@ const info = {
         images: ['images/Apotekerforeningen.png'],
         skills: ['TypeScript', 'React', 'SPFx', 'Azure DevOps'],
         icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png"
+      },
+      {
+        title: 'WSP Communication System',
+        description: 'WSP Communication System was a project for WSP. The source code is not available due to company policy.',
+        images: ['images/wspemail.png', 'images/wspopret.png', 'images/wsptabel.png'],
+        skills: ['C#', '.NET'],
+        icon: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/csharp/csharp.png"
       }
    
     ],
@@ -115,7 +122,7 @@ const info = {
     degree: 'Computer Science',
     age: '23',
     interests: 'Fitness',
-    animatedphilsrc: 'images/animatedphil.png'
+    animatedphilsrc: 'images/aniphil.webp'
   },
   techstack: {
     title: 'Tech Stack',
@@ -211,7 +218,7 @@ const info = {
       {
         title: 'Fellowmind',
         subtitle: 'Student Assistent',
-        duration: '28/11-2024 - Present',
+        duration: '1/12-2024 - Present',
         image: 'images/fellowmind.jpg'
       },
       {
