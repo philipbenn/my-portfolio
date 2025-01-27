@@ -122,7 +122,7 @@ const info = {
     degree: 'Computer Science',
     age: '23',
     interests: 'Fitness',
-    animatedphilsrc: 'images/aniphil.webp'
+    animatedphilsrc: 'images/animatedphil.png'
   },
   techstack: {
     title: 'Tech Stack',
