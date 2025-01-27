@@ -217,7 +217,7 @@ const info = {
       },
       {
         title: 'Fellowmind',
-        subtitle: 'Student Assistent',
+        subtitle: 'Student Assistant',
         duration: '1/12-2024 - Present',
         image: 'images/fellowmind.jpg'
       },
